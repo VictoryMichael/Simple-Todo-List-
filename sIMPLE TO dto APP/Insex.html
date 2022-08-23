@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title> MY TODO LIST APP </title>
+</head>
+<body>
+     <main class="app">
+        
+        <section class="greating">
+          <h2 class="title">
+            What's New <input type="text" id="name" placeholder="Name here">
+        </h2>
+        </section>
+
+        <section class="create-todo">
+           <h3>CREATE A TODO</h3>
+
+           <form id="new-todo-form">
+              <h4 class="your-todo">What's On Your Todo  <input type="text" name="name" class="catt1" readonly /> </h4>  
+               <input type="text"
+                name="content" 
+                placeholder="e.g. Review my code">
+         
+
+           <h4>Pick A Category</h4>
+            <div class="option">
+ 
+                <label>
+                    <input
+                    type="radio"
+                    name="category"
+                    id="category1"
+                    value="work"
+                    />
+                    <span class="bubble work"></span>
+                    <div>Work</div>
+                  </label>
+                
+                  <label>
+                    <input
+                    type="radio"
+                    name="category"
+                    id="category2"
+                    value="personal"
+                    />
+                    <span class="bubble personal"></span>
+                    <div>Personal</div>
+                  </label>
+                  
+            </div>
+             
+            <input type="submit" value="Add todo">
+          </form>
+        </section>
+
+
+        <section class="todo-list">
+          <h3>TODO LIST</h3>
+            <div class="list" id="todo-list">
+
+            <!--  <div class="todo-item done">   
+                    <label>
+                        <input type="checkbox">
+                        <span class="bubble work"></span>
+                    </label>
+                       <div class="todo-content">
+                          <input type="text" value="Review my code" readonly>
+                       </div>
+
+                       <div class="action ">
+                         <button class="edit">Edit</button>
+                         <button class="delete">Delete</button>
+                       </div>
+                </div>
+
+
+          
+                <div class="todo-item">
+                    <label>
+                        <input type="checkbox">
+                        <span class="bubble personal"></span>
+                    </label>
+                       <div class="todo-content">
+                          <input type="text" value="Feed my cats" readonly>
+                       </div>
+
+                       <div class="action">
+                         <button class="edit">Edit</button>
+                         <button class="delete">Delete</button>
+                       </div>
+                </div>   
+
+
+            </div>   -->
+        </section>
+     </main>
+
+     <footer >Michael Victory</footer>
+
+
+
+
+     <script src="index.js"></script>
+</body>
+</html>
